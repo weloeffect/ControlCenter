@@ -11,7 +11,7 @@ from .alerts import alert_view, detect_alerts
 from .config import DEFAULT_DB_PATH
 from .db import database_ready
 
-app = FastAPI(title="Check and Visit Operations Center Automation API", version="0.1.0")
+app = FastAPI(title="ControlCenter Automation API", version="0.1.0")
 
 
 @app.get("/health")

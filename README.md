@@ -1,8 +1,8 @@
-# Check and Visit Operations Center
+# ControlCenter
 
 A complete, reproducible prototype for monitoring a distributed partner network, detecting capacity pressure, recommending an eligible partner for a mission, and creating operational alerts.
 
-> **Synthetic data only.** Nothing in this repository represents the real performance, operations, customers, or partners of Check & Visit.
+> **Synthetic data only.** Nothing in this repository represents the real performance, operations, customers, or partners of ControlCenter.
 
 ## What is implemented
 

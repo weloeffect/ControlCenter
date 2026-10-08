@@ -1,5 +1,5 @@
 {
-  "name": "Check and Visit Operations Center - Daily operational alerts",
+  "name": "ControlCenter - Daily operational alerts",
   "nodes": [
     {
       "parameters": {

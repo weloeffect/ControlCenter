@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "checkvisit-ops-control-tower"
+name = "controlcenter"
 version = "0.1.0"
 description = "Synthetic operations-center prototype for a distributed partner network"
 requires-python = ">=3.11"

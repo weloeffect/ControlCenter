@@ -12,13 +12,13 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from app._common import page_setup, require_database
 
-page_setup("Check and Visit Operations Center", "🎛️")
+page_setup("ControlCenter", "🎛️")
 
 from control_tower.config import DEFAULT_DB_PATH  # noqa: E402
 from control_tower.db import database_ready, read_frame  # noqa: E402
 from control_tower.pipeline import build_demo  # noqa: E402
 
-st.title("Check and Visit Operations Center")
+st.title("ControlCenter")
 
 if not database_ready(DEFAULT_DB_PATH):
     st.info("Build the reproducible demo dataset to start exploring the control tower.")

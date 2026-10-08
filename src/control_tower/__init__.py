@@ -1,4 +1,4 @@
-"""Check and Visit Operations Center domain package."""
+"""ControlCenter domain package."""
 
 from .config import DEFAULT_DB_PATH, MISSION_TYPES
 
